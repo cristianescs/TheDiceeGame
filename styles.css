@@ -1,26 +1,39 @@
 .container {
-  width: 80%;
-  margin: auto;
   text-align: center;
 }
 
 .dice {
   text-align: center;
   display: inline-block;
-  margin: 40px;
+  padding: 40px;
 }
 
 body {
   background-color: #f4f3ee;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+  flex-direction: column;
 }
 
 h1 {
-  margin: 60px;
+  margin: 0 0 0 50px;
   font-family: 'Press Start 2P', cursive;
   text-shadow: 5px 0 #463f3a;
-  font-size: 5rem;
+  font-size: 4rem;
   color: #e0afa0;
 }
+
+
+h4 {
+  margin: 40px 0 0 50px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #463f3a75;
+}
+
 
 p {
   font-size: 1rem;
@@ -38,4 +51,10 @@ footer {
   text-align: center;
   font-family: 'Red Hat Mono', monospace;
 
+}
+
+#winner{
+  font-size: 1.5rem;
+  color: #c73535;
+  font-family: 'Press Start 2P', cursive;
 }
