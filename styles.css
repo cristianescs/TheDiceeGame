@@ -1,0 +1,41 @@
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 40px;
+}
+
+body {
+  background-color: #f4f3ee;
+}
+
+h1 {
+  margin: 60px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 5px 0 #463f3a;
+  font-size: 5rem;
+  color: #e0afa0;
+}
+
+p {
+  font-size: 1rem;
+  color: #463f3a;
+  font-family: 'Press Start 2P', cursive;
+}
+
+img {
+  width: 70%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #bcb8b1;
+  text-align: center;
+  font-family: 'Red Hat Mono', monospace;
+
+}
