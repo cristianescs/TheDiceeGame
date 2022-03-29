@@ -1,5 +1,5 @@
 
-    document.querySelector("#refresh").addEventListener("click", function(){
+    document.querySelector("button").addEventListener("click", function(){
     
     var randomNumber1 = Math.floor(Math.random() * 6) + 1;
     var dicePlayer1 = "dice" + randomNumber1;
