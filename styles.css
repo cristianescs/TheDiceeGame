@@ -27,11 +27,21 @@ h1 {
 }
 
 
-h4 {
-  margin: 40px 0 0 50px;
+button {
+  display: flex;
+  margin: 30px auto 0 auto;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
   font-family: 'Press Start 2P', cursive;
   font-size: 1rem;
   color: #463f3a75;
+  border: 2px solid  #a8a6a5;
+}
+
+button:hover{
+  background-color: #5c5856;
+  color: white;
 }
 
 
